@@ -1,0 +1,19 @@
+class Measurement
+
+instance variables
+
+startReading:Encoder;
+stopReading:Encoder;
+
+operations
+
+public Measurement: Encoder * Encoder ==> Measurement
+
+public startReading: () ==> ()
+
+public stopReading: () ==> ()
+
+public getMeasurement: () ==> real
+
+
+end Measurement

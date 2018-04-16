@@ -1,0 +1,32 @@
+class Measurement
+
+instance variables
+
+startReading:Encoder;
+stopReading:Encoder;
+
+startMeasure:real;
+stopMeasure:real;
+
+operations
+
+public Measurement: Encoder * Encoder ==> Measurement
+	Measurement(en1,en2) == (
+		startReading := en1;
+		stopReading := en2
+	);
+
+public startReading: () ==> ()
+	startReading() == (
+		startMeasure := startReading.getReading();
+	)
+
+public stopReading: () ==> ()
+	stopReading() == (
+		stopMeasure := stopReading.getReading();
+	)
+
+public getMeasurement: () ==> real
+
+
+end Measurement

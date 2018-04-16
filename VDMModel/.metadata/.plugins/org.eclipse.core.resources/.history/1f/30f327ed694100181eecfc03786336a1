@@ -64,11 +64,6 @@ System () ==
 	cpu.deploy(sensor5,  		"IR Sensor 5");	 
 	cpu.deploy(leftServo,   "Left servo");
 	cpu.deploy(rightServo,  "Right servo");
-	
-	cpu.deploy(leftEncoder, "Left Encoder");
-	cpu.deploy(rightEncoder, "Right Encoder");
-	
-	cpu.deploy(distanceMeasure, "Distance Measure");
 );
 
 end System

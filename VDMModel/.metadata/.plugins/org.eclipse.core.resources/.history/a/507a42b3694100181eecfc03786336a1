@@ -23,9 +23,6 @@ private rightServo: Servo;
 private leftEncoder: Encoder;
 private rightEncoder: Encoder;
 
--- Measurement Object
-private distanceMeasure: Measurement;
-
 cpu : CPU := new CPU(<FP>, 1E6);    
 
 operations
@@ -46,11 +43,7 @@ System () ==
 	
 	-- Create two encoders
 	leftEncoder := new Encoder(hwi.encoderright,false);
-	rightEncoder := new Encoder(hwi.encoderleft,true);
-	
-	-- Create Measurement object
-	distanceMeasure := new Measurement(leftEncoder,rightEncoder);
-		
+	rightEncoder := new Encoder(hwi.encoderleft,true);	
 
 	-- create controller object
 	controller := new Controller(sensor1, sensor2, sensor3, sensor4, sensor5, leftServo, rightServo);
@@ -64,11 +57,6 @@ System () ==
 	cpu.deploy(sensor5,  		"IR Sensor 5");	 
 	cpu.deploy(leftServo,   "Left servo");
 	cpu.deploy(rightServo,  "Right servo");
-	
-	cpu.deploy(leftEncoder, "Left Encoder");
-	cpu.deploy(rightEncoder, "Right Encoder");
-	
-	cpu.deploy(distanceMeasure, "Distance Measure");
 );
 
 end System

@@ -1,0 +1,50 @@
+class Measurement
+
+instance variables
+
+leftEncoder:Encoder;
+rightEncoder:Encoder;
+
+-- Start and stop readings for the left encoder
+leftStartMeasure:real;
+leftStopMeasure:real;
+
+-- Start and stop readings for the right encoder
+rightStartMeasure:real;
+rightStopMeasure:real;
+
+operations
+
+public Measurement: Encoder * Encoder ==> Measurement
+	Measurement(en1,en2) == (
+		leftEncoder := en1;
+		rightEncoder := en2
+	);
+
+-- Collects readings from both encoders and stores them in the start measures
+public startReading: () ==> ()
+	startReading() == (
+		leftStartMeasure := leftEncoder.getReading();
+		rightStartMeasure := rightEncoder.getReading();
+	);
+
+-- Collects readings from both ecnoders and stores them in the end measures
+public stopReading: () ==> ()
+	stopReading() == (
+		leftEndMeasure := leftEncoder.getReading();
+		rightEndMeasure := rightEncoder.getReading();
+	);
+
+-- Calculates the total distanced traveled by both encoders and determines the average value
+public getMeasurement: () ==> real
+	getMeasurement() == (
+		if(leftStartMeasure = nil or leftStopMeasure = nil or rightStartMeasure = nil or rightStopMeasure = nil) then
+			return 0
+		else (
+		
+		
+		)
+	)
+
+
+end Measurement
