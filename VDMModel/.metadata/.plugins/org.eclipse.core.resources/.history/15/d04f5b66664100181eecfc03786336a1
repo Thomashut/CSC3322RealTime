@@ -1,0 +1,36 @@
+class Encoder
+
+instance variables
+
+port : RealPort;
+reversed : bool;
+
+operations
+
+public Encoder: RealPort * bool ==> Encoder
+	Encoder(p,r) == (
+		port := p;
+		reversed := r;
+	);
+	
+	
+-- Returns a reading from the realport to the distance traveled by one wheel
+public getReading: () ==> real
+	getReading() == (
+		dcl counts:real := 0;
+		if(reversed) then -- If it is the right wheel the value must be converted from a negative value to a positive value
+			counts := abs(port.getValue())
+		else
+			counts := port.getValue();
+			
+		return counts * PI * DIAMETER / RESOLUTION; -- Using the number of rotations calculate the distance traveled in metres from one wheel
+	)
+
+values
+
+PI = 3.14159;
+DIAMETER = 0.0665;
+RESOLUTION = 44;
+
+
+end Encoder

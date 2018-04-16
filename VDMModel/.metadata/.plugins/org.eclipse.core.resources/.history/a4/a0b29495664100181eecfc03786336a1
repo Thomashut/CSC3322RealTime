@@ -19,10 +19,6 @@ private sensor5: IRSensor;
 private leftServo: Servo;
 private rightServo: Servo;
 
--- Encoder objects
-private leftEncoder: Encoder;
-private rightEncoder: Encoder;
-
 cpu : CPU := new CPU(<FP>, 1E6);    
 
 operations
@@ -39,11 +35,7 @@ System () ==
 
 	-- create servo objects
 	leftServo := new Servo(hwi.servoLeftVal, false);
-	rightServo := new Servo(hwi.servoRightVal, true);
-	
-	-- Create two encoders
-	leftEncoder := new Encoder(hwi.encoderright,false);
-	rightEncoder := new Encoder(hwi.encoderleft,true);	
+	rightServo := new Servo(hwi.servoRightVal, true);	
 
 	-- create controller object
 	controller := new Controller(sensor1, sensor2, sensor3, sensor4, sensor5, leftServo, rightServo);

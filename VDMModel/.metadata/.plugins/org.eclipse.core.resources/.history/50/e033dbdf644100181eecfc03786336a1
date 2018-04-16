@@ -1,0 +1,18 @@
+class Encoder
+
+operations
+
+public Encoder: RealPort * bool ==> Encoder
+	Encoder(p,r) == (
+	
+	)
+public getReading: () ==> real
+
+values
+
+PI = 3.14159;
+DIAMETER = 0.0665;
+RESOLUTION = 44;
+
+
+end Encoder
