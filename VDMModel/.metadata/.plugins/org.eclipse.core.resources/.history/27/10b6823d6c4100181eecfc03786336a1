@@ -1,0 +1,75 @@
+class Controller
+
+instance variables
+
+-- sensor objects
+sensor1: IRSensor;
+sensor2: IRSensor;
+sensor3: IRSensor;
+sensor4: IRSensor;
+sensor5: IRSensor;
+
+-- servo objects
+leftServo: Servo;
+rightServo: Servo;
+
+measureObject: Measurement;
+
+operations
+
+-- constructor for Controller
+public Controller: IRSensor * IRSensor * IRSensor * IRSensor * IRSensor * Servo * Servo * Measurement ==> Controller
+Controller(lf1, lf2, lf3, lf4, lf5, ls, rs, m) == (
+	sensor1 := lf1;
+	sensor2 := lf2;
+	sensor3 := lf3;
+	sensor4 := lf4;
+	sensor5 := lf5;
+	leftServo := ls;
+	rightServo := rs;
+	measureObject := m;
+);
+
+-- main loop
+Step: () ==> ()
+Step() == cycles(20) (
+		-- Initially the robot attempts to find the line by simply diving forward.
+		while (sensor1.getReading() >= irThreashold and sensor2.getReading() >= irThreashold) do (
+			IO`printf("%s \n","Hunting for Line"); 
+			leftServo.setSpeed(0.8);
+			rightServo.setSpeed(0.8)
+		);
+		
+		-- If both sensors detect the black line then robot must be on top of the line
+		if(sensor1.getReading() < irThreashold and sensor2.getReading() < irThreashold) then (
+			leftServo.setSpeed(0.8);
+			rightServo.setSpeed(0.8)
+		);
+		
+		-- Left Sensor detects blackline, right 
+		if(sensor1.getReading() < irThreashold and sensor2.getReading() >= irThreashold) then (
+		
+		); 
+
+
+);
+
+-- debug information
+PrintReadings: () ==> ()
+PrintReadings() == (
+    IO`printf("Readings: [%s, %s, %s, %s, %s]\n", 
+      [sensor1.getReading(), 
+       sensor2.getReading(), 
+       sensor3.getReading(),
+       sensor4.getReading(),
+			 sensor5.getReading()]);
+)
+
+thread
+periodic(10E6, 0, 0, 0)(Step)
+
+
+values
+	irThreashold = 150; -- Used to detect if the robot has found the black line or not
+
+end Controller

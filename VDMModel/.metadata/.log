@@ -1,0 +1,465 @@
+!SESSION 2018-04-16 11:51:59.001 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data H:\Documents\CSC3322_RealTimeCyber\Coursework\CSC3322RealTime\VDMModel
+
+!ENTRY org.eclipse.core.resources 4 376 2018-04-16 12:58:06.562
+!MESSAGE Marker id 798 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.911
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 990 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.918
+!MESSAGE Marker id 990 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.926
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 991 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.926
+!MESSAGE Marker id 991 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.931
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 992 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.931
+!MESSAGE Marker id 992 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.936
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 993 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.936
+!MESSAGE Marker id 993 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.941
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 990 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.942
+!MESSAGE Marker id 990 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.947
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 991 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.947
+!MESSAGE Marker id 991 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.952
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 992 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.952
+!MESSAGE Marker id 992 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:03:14.957
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 993 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:03:14.957
+!MESSAGE Marker id 993 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.652
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1145 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.652
+!MESSAGE Marker id 1145 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.657
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1136 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.657
+!MESSAGE Marker id 1136 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.662
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1137 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.662
+!MESSAGE Marker id 1137 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.667
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1138 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.667
+!MESSAGE Marker id 1138 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.672
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1139 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.672
+!MESSAGE Marker id 1139 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.677
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1145 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.677
+!MESSAGE Marker id 1145 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.681
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1136 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.681
+!MESSAGE Marker id 1136 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.686
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1137 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.686
+!MESSAGE Marker id 1137 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.691
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1138 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.691
+!MESSAGE Marker id 1138 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:07:23.695
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1139 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:07:23.695
+!MESSAGE Marker id 1139 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:08:07.255
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1248 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:08:07.255
+!MESSAGE Marker id 1248 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:08:07.260
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1238 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:08:07.260
+!MESSAGE Marker id 1238 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:08:07.265
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1239 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:60)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:08:07.265
+!MESSAGE Marker id 1239 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:08:07.269
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1248 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:08:07.270
+!MESSAGE Marker id 1248 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:08:07.274
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1238 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:08:07.274
+!MESSAGE Marker id 1238 not found.
+
+!ENTRY org.overture.ide.ui 4 0 2018-04-16 13:08:07.279
+!MESSAGE Faild to check marker attribute SEVERITY
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1239 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:105)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.containsSeverity(ProblemLabelDecorator.java:92)
+	at org.overture.ide.ui.navigator.ProblemLabelDecorator.decorate(ProblemLabelDecorator.java:64)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:259)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-04-16 13:08:07.279
+!MESSAGE Marker id 1239 not found.

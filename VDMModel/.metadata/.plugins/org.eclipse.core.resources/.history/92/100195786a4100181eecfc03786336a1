@@ -1,0 +1,74 @@
+system System
+
+instance variables
+
+-- Hardware interface variable required by FMU Import/Export
+public static hwi: HardwareInterface := new HardwareInterface();
+
+-- controller
+public static controller: [Controller] := nil;  
+
+-- IR sensor objects
+private sensor1: IRSensor;
+private sensor2: IRSensor;
+private sensor3: IRSensor;
+private sensor4: IRSensor;
+private sensor5: IRSensor;
+
+-- servo objects
+private leftServo: Servo;
+private rightServo: Servo;
+
+-- Encoder objects
+private leftEncoder: Encoder;
+private rightEncoder: Encoder;
+
+-- Measurement Object
+private distanceMeasure: Measurement;
+
+cpu : CPU := new CPU(<FP>, 1E6);    
+
+operations
+
+public System : () ==> System
+System () == 
+(
+	-- create IR sensor objects
+	sensor1 := new IRSensor(hwi.lf1, hwi.lf1FailFlag);
+	sensor2 := new IRSensor(hwi.lf2, hwi.lf2FailFlag);
+	sensor3 := new IRSensor(hwi.lf3, hwi.lf3FailFlag);
+	sensor4 := new IRSensor(hwi.lf4, hwi.lf4FailFlag);
+	sensor5 := new IRSensor(hwi.lf5, hwi.lf5FailFlag);
+
+	-- create servo objects
+	leftServo := new Servo(hwi.servoLeftVal, false);
+	rightServo := new Servo(hwi.servoRightVal, true);
+	
+	-- Create two encoders
+	leftEncoder := new Encoder(hwi.encoderright,false);
+	rightEncoder := new Encoder(hwi.encoderleft,true);
+	
+	-- Create Measurement object
+	distanceMeasure := new Measurement(leftEncoder,rightEncoder);
+		
+
+	-- create controller object
+	controller := new Controller(sensor1, sensor2, sensor3, sensor4, sensor5, leftServo, rightServo);
+
+	-- deploy objects
+	cpu.deploy(controller,  "Controller");
+	cpu.deploy(sensor1,  		"IR Sensor 1");
+	cpu.deploy(sensor2,  		"IR Sensor 2");
+	cpu.deploy(sensor3,  		"IR Sensor 3");
+	cpu.deploy(sensor4,  		"IR Sensor 4");
+	cpu.deploy(sensor5,  		"IR Sensor 5");	 
+	cpu.deploy(leftServo,   "Left servo");
+	cpu.deploy(rightServo,  "Right servo");
+	
+	cpu.deploy(leftEncoder, "Left Encoder");
+	cpu.deploy(rightEncoder, "Right Encoder");
+	
+	cpu.deploy(distanceMeasure, "Distance Measure");
+);
+
+end System
