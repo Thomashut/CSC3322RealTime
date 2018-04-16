@@ -1,0 +1,45 @@
+--##	EXPORT	37dccc623671bec0803a742ae0939b242c23a88e	LMControllerFMU.fmu	2018-08-03 22:51:56	tool-wrapper	{"name":"fmu-import-export","version":"0.2.1-SNAPSHOT"}
+--##	EXPORT	8725a2e9b401ade4cbb2be606492441538e6fea1	LMControllerFMU.fmu	2018-08-03 21:54:20	tool-wrapper	{"name":"fmu-import-export","version":"0.2.1-SNAPSHOT"}
+--##	EXPORT	3d3cb0b0af6cb5c0cc6b0ffeac9b86fb9cba8440	LMControllerFMU.fmu	2018-08-03 21:49:10	tool-wrapper	{"name":"fmu-import-export","version":"0.2.1-SNAPSHOT"}
+--##	EXPORT	8f1f246a070acf67d44b8aef6ecd6838b6c4bb77	LMControllerFMU.fmu	2018-08-03 21:35:09	tool-wrapper	{"name":"fmu-import-export","version":"0.2.1-SNAPSHOT"}
+--##	IMPORT	d79029caf05e25c3abb0bf3936d2268c4d1afc7c	modelDescription.xml	2018-08-03 21:16:54	FMI-ModelDescription	{"name":"fmu-import-export","version":"0.2.1-SNAPSHOT"}
+-- Generated class
+class HardwareInterface
+instance variables
+	-- @ interface: type = input, name="lf5FailFlag";
+	public lf5FailFlag : BoolPort := new BoolPort(false);
+	-- @ interface: type = input, name="lf2FailFlag";
+	public lf2FailFlag : BoolPort := new BoolPort(false);
+	-- @ interface: type = input, name="lf3";
+	public lf3 : RealPort := new RealPort(0.0);
+	-- @ interface: type = input, name="lf3FailFlag";
+	public lf3FailFlag : BoolPort := new BoolPort(false);
+	-- @ interface: type = input, name="lf4FailFlag";
+	public lf4FailFlag : BoolPort := new BoolPort(false);
+	-- @ interface: type = input, name="lf1";
+	public lf1 : RealPort := new RealPort(0.0);
+	-- @ interface: type = input, name="encoder_right";
+	public encoderright : RealPort := new RealPort(0.0);
+	-- @ interface: type = input, name="lf4";
+	public lf4 : RealPort := new RealPort(0.0);
+	-- @ interface: type = input, name="lf2";
+	public lf2 : RealPort := new RealPort(0.0);
+	-- @ interface: type = input, name="lf5";
+	public lf5 : RealPort := new RealPort(0.0);
+	-- @ interface: type = input, name="encoder_left";
+	public encoderleft : RealPort := new RealPort(0.0);
+	-- @ interface: type = input, name="lf1FailFlag";
+	public lf1FailFlag : BoolPort := new BoolPort(false);
+
+
+instance variables
+	-- @ interface: type = output, name="servoLeftVal";
+	public servoLeftVal : RealPort := new RealPort(0.0);
+	-- @ interface: type = output, name="servoRightVal";
+	public servoRightVal : RealPort := new RealPort(0.0);
+
+
+  
+  
+end HardwareInterface
+
