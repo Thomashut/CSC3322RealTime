@@ -1,5 +1,8 @@
 class Measurement
 
+values
+	NUMOFENCODERS = 2 -- Number of encoders, change change if in future more encoders are added. Also stops magic numbers living in the code
+
 instance variables
 
 leftEncoder:Encoder;
@@ -58,9 +61,4 @@ public getMeasurement: () ==> real
 		)
 	)
 	
-	
-values
-	NUMOFENCODERS = 2 -- Number of encoders, change change if in future more encoders are added. Also stops magic numbers living in the code
-
-
 end Measurement

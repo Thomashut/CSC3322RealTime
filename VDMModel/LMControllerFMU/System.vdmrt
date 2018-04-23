@@ -56,7 +56,7 @@ System () ==
 	controller := new Controller(sensor1, sensor2, sensor3, sensor4, sensor5, leftServo, rightServo,distanceMeasure);
 
 	-- deploy objects
-	cpu.deploy(controller,  "Controller");
+
 	cpu.deploy(sensor1,  		"IR Sensor 1");
 	cpu.deploy(sensor2,  		"IR Sensor 2");
 	cpu.deploy(sensor3,  		"IR Sensor 3");
@@ -69,6 +69,7 @@ System () ==
 	cpu.deploy(rightEncoder, "Right Encoder");
 	
 	cpu.deploy(distanceMeasure, "Distance Measure");
+	cpu.deploy(controller,  "Controller");
 );
 
 end System

@@ -24,7 +24,7 @@ public getReading: () ==> real
 		else
 			counts := port.getValue();
 			
-		return counts * PI * DIAMETER / RESOLUTION; -- Using the number of rotations calculate the distance traveled in metres from one wheel
+		return (counts * PI * DIAMETER) / RESOLUTION; -- Using the number of rotations calculate the distance traveled in metres from one wheel
 	)
 
 values
